@@ -22,9 +22,11 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 
 
 
+
 // Project Section Logo's
 import weatherpro from './assets/work_logo/weatherpro.jpeg';
 import goCart from './assets/work_logo/goCart.jpeg';
+import healthai from './assets/work_logo/healthai.png';
 
 
 export const SkillsInfo = [
@@ -84,8 +86,18 @@ export const SkillsInfo = [
       github: "https://github.com/itmekanishk/goCart",
       webapp: "https://go-cart-blush.vercel.app/",
     },
-    {
+     {
       id: 1,
+      title: "AI Health Assistant",
+      description:
+        "User friendly AI Health Assistant that helps person to detect common disease based upon symptoms",
+      image: healthai,
+      tags: ["React JS",'API','Tailwind',"Gemini","ai-models"],
+      github: "https://github.com/itmekanishk/HealthAIAssitant",
+      webapp: "https://health-ai-assitant.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Weather App",
       description:
         "User friendly Weather App that fetch Tempearture, Pressure, WindSpeed of various cities.",
